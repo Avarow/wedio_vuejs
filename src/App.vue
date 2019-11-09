@@ -1,28 +1,29 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Login/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Login from './components/Login.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    Login
   }
-}
+};
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+
+body{
+  background-image: url("https://wedio-cdn-test.s3.eu-west-1.amazonaws.com/images/homepage/login/login_bg_x2.jpg");
+  background-size: cover;
 }
+
+.w3-allerta {
+  font-family: "Allerta Stencil", Sans-serif;
+}
+
 </style>
