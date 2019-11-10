@@ -109,7 +109,7 @@ export default {
 
 .login{
 	height: 60%;
-	width: 70%;
+	width: 80%;
 }
 
 p{

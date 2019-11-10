@@ -20,6 +20,7 @@ export default {
 body{
   background-image: url("https://wedio-cdn-test.s3.eu-west-1.amazonaws.com/images/homepage/login/login_bg_x2.jpg");
   background-size: cover;
+
 }
 
 .w3-allerta {
